@@ -1,0 +1,16 @@
+.app {
+  border: 2px solid #1E2937;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4px 6px;
+  margin: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+    .app {
+        width: 25%;
+    }
+}
